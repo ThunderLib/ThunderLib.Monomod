@@ -14,6 +14,10 @@
 
   <ItemGroup>
     <PackageReference Include="MonoMod.RuntimeDetour" Version="21.1.11.1" />
+    <PackageReference Include="Teronis.MSBuild.Packaging.ProjectBuildInPackage" Version="0.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
